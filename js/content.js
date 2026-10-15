@@ -12,7 +12,7 @@ window.PORTFOLIO = {
     first: 'Samar',
     last: 'Alawlaqi',
     title: 'AI Specialist · AI Engineer',
-    status: 'Jeddah, Saudi Arabia',
+    status: 'Saudi Arabia',
     email: 'samar.mohammed6209@gmail.com',
     links: [
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/samar-alawlaqi' },
