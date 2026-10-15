@@ -21,7 +21,6 @@
   $('#name-last').textContent = P.person.last;
   $('#hero-title').textContent = P.person.title;
   $('#hero-status').textContent = P.person.status;
-  $('#nav-cv').href = P.person.cv;
 
   if (P.draft) {
     var banner = $('#draft-banner');
@@ -108,7 +107,7 @@
   // ---------- contact ----------
   var email = P.person.email;
   $('#email-text').textContent = email;
-  var links = [{ label: 'Email', href: 'mailto:' + email }].concat(P.person.links, [{ label: 'CV', href: P.person.cv }])
+  var links = [{ label: 'Email', href: 'mailto:' + email }].concat(P.person.links)
     .filter(function (l) { return l.href; });
   $('#contact-links').innerHTML = links.map(function (l) {
     var ext = /^https?:|\.pdf$/.test(l.href);

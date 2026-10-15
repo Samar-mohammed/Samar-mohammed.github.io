@@ -171,7 +171,6 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .nav.menu-open { background: var(--bg); border-bottom-color: var(--line); }
 @media (max-width: 720px) { .menu-btn { display: block; } }
 @media (min-width: 721px) { .menu { display: none; } }
-@media (max-width: 400px) { .nav__mark { font-size: 0; gap: 0; } .nav__mark img { width: 32px; height: 32px; } }
 
 /* ---------- theme toggle ---------- */
 .theme-toggle {

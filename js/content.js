@@ -17,7 +17,6 @@ window.PORTFOLIO = {
     links: [
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/samar-alawlaqi' },
     ],
-    cv: 'assets/Samar-Alawlaqi-AI-Specialist.pdf',
   },
 
   hero: {

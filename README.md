@@ -7,8 +7,7 @@ A static, dependency-free portfolio site: no build step, no framework. Open `ind
 All text, projects, experience and links live in **`js/content.js`**. You shouldn't need to touch the HTML, CSS or JS.
 
 1. Replace the sample projects, experience, location, email and social links (look for `TODO`).
-2. Put your CV in `assets/` and set `person.cv` to its path.
-3. Set `draft: false` to remove the "Draft" banner.
+2. Set `draft: false` to remove the "Draft" banner.
 
 Each project becomes a row in **Projects**, with a "Details" button that expands the problem, approach and stack in place.
 
@@ -20,7 +19,7 @@ css/styles.css    design system (light + dark themes)
 js/content.js     ← all content
 js/main.js        rendering and interactions
 js/network.js     hero neural-network background
-assets/           favicon, iPhone icon, link-preview image (og-image.png), Figtree font, CV
+assets/           favicon, iPhone icon, link-preview image (og-image.png), Figtree font
 ```
 
 ## Preview locally
