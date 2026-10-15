@@ -33,4 +33,4 @@ npx serve .
 
 Any static host works. Upload the folder to Netlify Drop, Vercel, Cloudflare Pages or GitHub Pages; there are no build settings.
 
-Live at https://samar-mohammed.github.io (GitHub Pages, deploys from `main`). If the address changes, update `og:url`, `og:image`, `twitter:image`, `canonical` and the JSON-LD `url` in `index.html`.
+Live at https://samar-alawlaqi.github.io (GitHub Pages, deploys from `main`). If the address changes, update `og:url`, `og:image`, `twitter:image`, `canonical` and the JSON-LD `url` in `index.html`.
